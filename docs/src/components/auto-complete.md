@@ -7,10 +7,10 @@
 
 
 ## 示例
+<AutoCompleteTest />
 
-<AutoCompleteTest/>
-<script setup lang='ts'>
-  import AutoCompleteTest from './AutoCompleteTest.vue'
+<script setup lang="ts">
+ import AutoCompleteTest from './AutoCompleteTest.vue'
 </script>
 
 ```html

@@ -56,7 +56,15 @@ export default {
             {
               text: 'AutoComplete',
               link: '/components/auto-complete.md'
-            }
+            },
+            {
+              text: 'EOITab',
+              link: '/components/eoi-tab/eoi-tab.md'
+            },
+            {
+              text: 'EOIFormFieldView',
+              link: '/components/eoi-form-field-view/eoi-form-field-view.md'
+            },
           ],
         }
       ],

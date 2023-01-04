@@ -15,3 +15,5 @@
 // export { EoiSvgIcon } from './EOiSvgIcon';
 // export { EoiIframeView } from './EOIIframeView';
 export { AutoComplete } from './auto-complete';
+export { EOIFormFieldView } from './EOIFormFieldView';
+export { EOITab } from './EOITab';
