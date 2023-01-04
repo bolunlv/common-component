@@ -7,17 +7,17 @@
 </template>
 <script setup lang="ts">
   import { EOITab, AutoComplete } from '@eoi-plus/components'
-  import { ref } from 'vue'
-  import { TabPanelName } from 'element-plus';
+  import { ref, markRaw } from 'vue'
+  import { TabPanelName, ElInput, ElDatePicker } from 'element-plus';
 
   const screenData = ref([
    {
       name: 'Tab1',
-      type: AutoComplete,
+      type: markRaw(ElInput),
    },
    {
       name: 'Tab2',
-      type: AutoComplete,
+      type: markRaw(ElDatePicker),
    },
   ])
 
